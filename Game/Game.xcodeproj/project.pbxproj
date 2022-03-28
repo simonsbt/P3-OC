@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0889703527E89F39009BAFDA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889703427E89F39009BAFDA /* main.swift */; };
-		0889703C27E8A132009BAFDA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889703B27E8A132009BAFDA /* Game.swift */; };
-		0889703E27E8AAD8009BAFDA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889703D27E8AAD8009BAFDA /* Player.swift */; };
-		0889704027E8AB1D009BAFDA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889703F27E8AB1D009BAFDA /* Character.swift */; };
-		08F6BEBE27E8C68600497856 /* CharacterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F6BEBD27E8C68600497856 /* CharacterType.swift */; };
+		089F487027EF83D600A4ACB0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F486F27EF83D600A4ACB0 /* main.swift */; };
+		089F487727EF83F800A4ACB0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F487627EF83F800A4ACB0 /* Player.swift */; };
+		089F487927EF83FF00A4ACB0 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F487827EF83FF00A4ACB0 /* Character.swift */; };
+		089F487B27EF841000A4ACB0 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F487A27EF841000A4ACB0 /* Weapon.swift */; };
+		089F487D27EF841700A4ACB0 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F487C27EF841700A4ACB0 /* Warrior.swift */; };
+		089F487F27EF842000A4ACB0 /* Magus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F487E27EF842000A4ACB0 /* Magus.swift */; };
+		089F488127EF842600A4ACB0 /* Colossus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F488027EF842600A4ACB0 /* Colossus.swift */; };
+		089F488327EF842C00A4ACB0 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F488227EF842C00A4ACB0 /* Sword.swift */; };
+		089F488527EF843200A4ACB0 /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F488427EF843200A4ACB0 /* Stick.swift */; };
+		089F488727EF843800A4ACB0 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F488627EF843800A4ACB0 /* Club.swift */; };
+		089F488B27EF848000A4ACB0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F488A27EF848000A4ACB0 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0889702F27E89F39009BAFDA /* CopyFiles */ = {
+		089F486A27EF83D600A4ACB0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,16 +33,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0889703127E89F39009BAFDA /* Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game; sourceTree = BUILT_PRODUCTS_DIR; };
-		0889703427E89F39009BAFDA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		0889703B27E8A132009BAFDA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		0889703D27E8AAD8009BAFDA /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		0889703F27E8AB1D009BAFDA /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		08F6BEBD27E8C68600497856 /* CharacterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterType.swift; sourceTree = "<group>"; };
+		089F486C27EF83D600A4ACB0 /* Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game; sourceTree = BUILT_PRODUCTS_DIR; };
+		089F486F27EF83D600A4ACB0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		089F487627EF83F800A4ACB0 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		089F487827EF83FF00A4ACB0 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		089F487A27EF841000A4ACB0 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		089F487C27EF841700A4ACB0 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		089F487E27EF842000A4ACB0 /* Magus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magus.swift; sourceTree = "<group>"; };
+		089F488027EF842600A4ACB0 /* Colossus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colossus.swift; sourceTree = "<group>"; };
+		089F488227EF842C00A4ACB0 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		089F488427EF843200A4ACB0 /* Stick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
+		089F488627EF843800A4ACB0 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		089F488A27EF848000A4ACB0 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0889702E27E89F39009BAFDA /* Frameworks */ = {
+		089F486927EF83D600A4ACB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,44 +58,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0889702827E89F39009BAFDA = {
+		089F486327EF83D600A4ACB0 = {
 			isa = PBXGroup;
 			children = (
-				0889703327E89F39009BAFDA /* Game */,
-				0889703227E89F39009BAFDA /* Products */,
+				089F486E27EF83D600A4ACB0 /* Game */,
+				089F488927EF846000A4ACB0 /* Characters */,
+				089F488827EF843E00A4ACB0 /* Weapons */,
+				089F486D27EF83D600A4ACB0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0889703227E89F39009BAFDA /* Products */ = {
+		089F486D27EF83D600A4ACB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0889703127E89F39009BAFDA /* Game */,
+				089F486C27EF83D600A4ACB0 /* Game */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0889703327E89F39009BAFDA /* Game */ = {
+		089F486E27EF83D600A4ACB0 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				0889703427E89F39009BAFDA /* main.swift */,
-				0889703B27E8A132009BAFDA /* Game.swift */,
-				0889703D27E8AAD8009BAFDA /* Player.swift */,
-				0889703F27E8AB1D009BAFDA /* Character.swift */,
-				08F6BEBD27E8C68600497856 /* CharacterType.swift */,
+				089F486F27EF83D600A4ACB0 /* main.swift */,
+				089F488A27EF848000A4ACB0 /* Game.swift */,
+				089F487627EF83F800A4ACB0 /* Player.swift */,
+				089F487827EF83FF00A4ACB0 /* Character.swift */,
+				089F487A27EF841000A4ACB0 /* Weapon.swift */,
 			);
 			path = Game;
+			sourceTree = "<group>";
+		};
+		089F488827EF843E00A4ACB0 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				089F488627EF843800A4ACB0 /* Club.swift */,
+				089F488427EF843200A4ACB0 /* Stick.swift */,
+				089F488227EF842C00A4ACB0 /* Sword.swift */,
+			);
+			path = Weapons;
+			sourceTree = "<group>";
+		};
+		089F488927EF846000A4ACB0 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				089F488027EF842600A4ACB0 /* Colossus.swift */,
+				089F487E27EF842000A4ACB0 /* Magus.swift */,
+				089F487C27EF841700A4ACB0 /* Warrior.swift */,
+			);
+			path = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0889703027E89F39009BAFDA /* Game */ = {
+		089F486B27EF83D600A4ACB0 /* Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0889703827E89F39009BAFDA /* Build configuration list for PBXNativeTarget "Game" */;
+			buildConfigurationList = 089F487327EF83D600A4ACB0 /* Build configuration list for PBXNativeTarget "Game" */;
 			buildPhases = (
-				0889702D27E89F39009BAFDA /* Sources */,
-				0889702E27E89F39009BAFDA /* Frameworks */,
-				0889702F27E89F39009BAFDA /* CopyFiles */,
+				089F486827EF83D600A4ACB0 /* Sources */,
+				089F486927EF83D600A4ACB0 /* Frameworks */,
+				089F486A27EF83D600A4ACB0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -91,25 +125,25 @@
 			);
 			name = Game;
 			productName = Game;
-			productReference = 0889703127E89F39009BAFDA /* Game */;
+			productReference = 089F486C27EF83D600A4ACB0 /* Game */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0889702927E89F39009BAFDA /* Project object */ = {
+		089F486427EF83D600A4ACB0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					0889703027E89F39009BAFDA = {
+					089F486B27EF83D600A4ACB0 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = 0889702C27E89F39009BAFDA /* Build configuration list for PBXProject "Game" */;
+			buildConfigurationList = 089F486727EF83D600A4ACB0 /* Build configuration list for PBXProject "Game" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,33 +151,39 @@
 				en,
 				Base,
 			);
-			mainGroup = 0889702827E89F39009BAFDA;
-			productRefGroup = 0889703227E89F39009BAFDA /* Products */;
+			mainGroup = 089F486327EF83D600A4ACB0;
+			productRefGroup = 089F486D27EF83D600A4ACB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0889703027E89F39009BAFDA /* Game */,
+				089F486B27EF83D600A4ACB0 /* Game */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0889702D27E89F39009BAFDA /* Sources */ = {
+		089F486827EF83D600A4ACB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0889703C27E8A132009BAFDA /* Game.swift in Sources */,
-				08F6BEBE27E8C68600497856 /* CharacterType.swift in Sources */,
-				0889704027E8AB1D009BAFDA /* Character.swift in Sources */,
-				0889703527E89F39009BAFDA /* main.swift in Sources */,
-				0889703E27E8AAD8009BAFDA /* Player.swift in Sources */,
+				089F487927EF83FF00A4ACB0 /* Character.swift in Sources */,
+				089F487D27EF841700A4ACB0 /* Warrior.swift in Sources */,
+				089F487B27EF841000A4ACB0 /* Weapon.swift in Sources */,
+				089F488527EF843200A4ACB0 /* Stick.swift in Sources */,
+				089F488127EF842600A4ACB0 /* Colossus.swift in Sources */,
+				089F487727EF83F800A4ACB0 /* Player.swift in Sources */,
+				089F488B27EF848000A4ACB0 /* Game.swift in Sources */,
+				089F488327EF842C00A4ACB0 /* Sword.swift in Sources */,
+				089F488727EF843800A4ACB0 /* Club.swift in Sources */,
+				089F487027EF83D600A4ACB0 /* main.swift in Sources */,
+				089F487F27EF842000A4ACB0 /* Magus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0889703627E89F39009BAFDA /* Debug */ = {
+		089F487127EF83D600A4ACB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		0889703727E89F39009BAFDA /* Release */ = {
+		089F487227EF83D600A4ACB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +296,7 @@
 			};
 			name = Release;
 		};
-		0889703927E89F39009BAFDA /* Debug */ = {
+		089F487427EF83D600A4ACB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -267,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		0889703A27E89F39009BAFDA /* Release */ = {
+		089F487527EF83D600A4ACB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -281,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0889702C27E89F39009BAFDA /* Build configuration list for PBXProject "Game" */ = {
+		089F486727EF83D600A4ACB0 /* Build configuration list for PBXProject "Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0889703627E89F39009BAFDA /* Debug */,
-				0889703727E89F39009BAFDA /* Release */,
+				089F487127EF83D600A4ACB0 /* Debug */,
+				089F487227EF83D600A4ACB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0889703827E89F39009BAFDA /* Build configuration list for PBXNativeTarget "Game" */ = {
+		089F487327EF83D600A4ACB0 /* Build configuration list for PBXNativeTarget "Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0889703927E89F39009BAFDA /* Debug */,
-				0889703A27E89F39009BAFDA /* Release */,
+				089F487427EF83D600A4ACB0 /* Debug */,
+				089F487527EF83D600A4ACB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0889702927E89F39009BAFDA /* Project object */;
+	rootObject = 089F486427EF83D600A4ACB0 /* Project object */;
 }
